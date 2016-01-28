@@ -1,0 +1,23 @@
+/* Grid */
+.show-grid {
+    margin-bottom: 1em;
+}
+.show-grid [class^="col-"] {
+    padding: 1em;
+    text-align: center;
+    background-color: rgba(86, 61, 124, 0.15);
+    border: 1px solid rgba(86, 61, 124, 0.2);
+}
+.grid-mobile [class^="col-"] {
+    padding: 5em 1em;
+    text-align: center;
+}
+.grid-nesting [class^="col-"] {
+    margin-top: 2em;
+    padding: 4em 1em;
+}
+.grid-offset [class^="col-"] {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 2em;
+}
